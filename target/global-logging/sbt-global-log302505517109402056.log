@@ -1,0 +1,30 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.6 (Oracle Corporation Java 1.8.0_241)
+[debug] Load.defaultLoad until apply took 4442.4301ms
+[debug]           Load.loadUnit: plugins took 138.4992ms
+[debug]           Load.loadUnit: defsScala took 0.4709ms
+[debug] [Loading] Scanning directory C:\Users\Matheus\Desktop\Matheus\USC\DSCI 553 - Foundations and Applications of Data Mining\Homeworks\HW3\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Matheus\Desktop\Matheus\USC\DSCI 553 - Foundations and Applications of Data Mining\Homeworks\HW3\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 24.6533 ms
+[debug]               Load.resolveProject(hw3-build) took 57.4521ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id hw3-build, base: C:\Users\Matheus\Desktop\Matheus\USC\DSCI 553 - Foundations and Applications of Data Mining\Homeworks\HW3\project, plugins: List(<none>))) took 110.8286ms
+[debug] [Loading] Done in C:\Users\Matheus\Desktop\Matheus\USC\DSCI 553 - Foundations and Applications of Data Mining\Homeworks\HW3\project, returning: (hw3-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 149.0118ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.2424ms
+[debug]         Load.loadUnit(file:/C:/Users/Matheus/Desktop/Matheus/USC/DSCI%20553%20-%20Foundations%20and%20Applications%20of%20Data%20Mining/Homeworks/HW3/project/, ...) took 295.22ms
+[debug]       Load.apply: load took 957.1066ms
+[debug]       Load.apply: resolveProjects took 10.0132ms
+[debug]       Load.apply: finalTransforms took 283.4804ms
+[debug]       Load.apply: config.delegates took 11.0879ms

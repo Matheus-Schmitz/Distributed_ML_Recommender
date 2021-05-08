@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="akka-actor_2.11-2.3.11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jar_files/akka-actor_2.11-2.3.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/asm-4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/config-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/kryo-2.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/minlog-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/objenesis-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/reflectasm-1.07-shaded.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/scala-compiler-2.11.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/scala-library-2.11.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/scala-parser-combinators_2.11-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/scala-reflect-2.11.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/scala-xml_2.11-1.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/xgboost4j-0.90.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jar_files/xgboost4j-spark-0.90.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
